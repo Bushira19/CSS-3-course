@@ -1,0 +1,72 @@
+div{
+    width:250px;
+    height:250px;
+    margin: 10px;
+}
+.one{
+    background: linear-gradient(red,green);
+    background: linear-gradient(to top, blue,green,pink,red,black,yellow);
+}
+
+.two{
+    background: linear-gradient(to top,blue,red);
+}
+
+.three{
+    background: linear-gradient(350deg,red,green,black);
+}
+
+.four{
+    background: linear-gradient(30deg,pink,violet,lightblue,lightgreen,red);
+}
+.five{
+    background: linear-gradient(hsl(270, 70%, 30%),rgb(182, 59, 121),rgb(98, 197, 105));
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    font-size: 70px;
+}
+
+.banner{
+    background-image: url(./big-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(./big-img.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+/* bacckground property shortcuts */
+
+/* div{
+    width: 500px;
+    min-height: 200vh;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner{
+    background: url(./big-img.jpeg) center/cover no-repeat fixed;
+} */

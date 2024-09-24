@@ -1,0 +1,33 @@
+/* .div_red{
+    color: red;
+    background-color: lightcyan
+}
+span{
+    text-transform: uppercase;
+    color:blue;
+    background-color: red;
+}
+.div_blue{
+    color: green;
+    background-color: lightblue
+} */
+
+body{
+    color:white;
+    background-color: black;
+    border: red solid 5px;
+    font-family: monospace;
+    line-height: 5rem;
+
+}
+
+div{
+    color:red;
+    background-color: lightblue;
+    border: 2px solid red;
+    font-family: monospace;
+    line-height: 1.5px;
+}
+h3{
+    color:green;
+}

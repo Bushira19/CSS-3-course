@@ -1,0 +1,52 @@
+/* media queries
+responsive designs
+style elements on diff screen sizes
+min-width --- starting form
+max-width ----- up to
+mobile first */
+
+body{
+    background: yellow;
+}
+
+.banner{
+    background-color: red;
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 10px;
+} 
+
+@media screen and (max-width:750px){
+    body{
+        background-color: green;
+    }
+    .banner{
+        background-color: lightcoral;
+    }
+    h1{
+        font-size: 80px;
+        text-align: center;
+        font-style: italic;
+    }
+
+}
+
+@media screen and (max-width:576px){
+    body{
+        background-color: blue;
+    }
+    .banner{
+        background-color: lightseagreen;
+    }
+    h1{
+        font-size: 60px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+}
+

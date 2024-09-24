@@ -1,0 +1,23 @@
+h1{
+    background-color: black;
+    color: white;
+    max-width: 400px;
+}
+
+/* h1{
+    background-color: black;
+    color: white;
+    min-width: 100px;
+} */
+
+h2{
+    background-color: red;
+    color: green;
+    max-height: 80px;
+}
+
+/* h2{
+    background-color: black;
+    color: white;
+    min-height: 100px;
+} */

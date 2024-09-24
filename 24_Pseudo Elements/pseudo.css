@@ -1,0 +1,71 @@
+p::before{
+    content: "starting ";
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+    display: block;
+    background: lightblue;
+}
+p::after{
+    content: "" ;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: orangered;
+    border-radius: 50%;
+}
+/* p::after{
+    content: " ending ";
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+    display: block;
+    background: lightcyan;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+div{
+    width: 60vw;
+    margin: 100px auto;
+    /* border: 10px solid red; */
+    position: relative;
+
+}
+
+img{
+    width: 100%;
+    display: block;
+
+}
+
+img::after{
+    content: "" ;
+}
+
+div::before{
+    content: "";
+    border: 5px solid gray;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -50px;
+    left: -50px;
+    z-index: -2;
+}
+
+div::after{
+    content: "";
+    background:  gray;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -25px;
+    left: -25px;
+    z-index: -2;
+}

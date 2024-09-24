@@ -1,0 +1,13 @@
+.div_red{
+    color: red;
+    background-color: lightcyan
+}
+span{
+    text-transform: uppercase;
+    color:blue;
+    background-color: red;
+}
+.div_blue{
+    color: green;
+    background-color: lightblue
+}

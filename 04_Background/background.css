@@ -1,0 +1,57 @@
+/* Background Image css tutorial
+background-url(image)
+background-repeat
+background-size
+background-position
+background-attachment
+shorthand syntax */
+
+div{
+    min-height: 100vh;
+    color: red;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.big{
+    background: url(../css/big-img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+}
+.small{
+    background: url(../css/folder-img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: round;
+    background-repeat: space; */
+    
+}
+
+.folder{
+    background: url(../css/big-img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-position: 0 0;
+    background-repeat: no-repeat;
+    background-position: 100% 100%; */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+}

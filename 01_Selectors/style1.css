@@ -1,0 +1,46 @@
+h1{
+    color: green;
+    font-size: 50px;
+}
+
+p{
+    color: brown;
+    font-size: 30px;
+}
+
+h2{
+    color:darkmagenta;
+    font-size: 25px;
+} 
+
+
+ body{
+    color:indigo;
+    font-size: ;
+} 
+
+#hello{
+    color:red;
+}
+
+#hai{
+    color:blueviolet;
+    font-size: 50px;
+}
+
+
+.red{
+    color: blue;
+    font-size: 50px;
+    background-color:pink ;
+    text-align: center;
+    font-style: italic;
+}
+
+.violet{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    background-color: coral;
+}

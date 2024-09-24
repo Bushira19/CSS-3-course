@@ -1,0 +1,63 @@
+/* fontstyle,
+fonntweight,
+textalign,
+text-indent */
+
+/* .one{
+    font-weight:bold;
+    font-style:italic;
+    text-align: left;
+    text-indent: 500px;
+}
+.main{
+    
+    font-style:italic;
+    text-align: center;
+}
+
+.subheading{
+    
+    font-style:oblique;
+    text-align: center;
+}
+.two{
+    font-weight:bolder;
+    font-style: oblique;
+    text-align: left;
+}
+
+.three{
+    font-weight:lighter;
+    font-style: normal;
+    text-align: left;
+} */
+
+
+
+
+
+/* line-height,
+letter-spacing,
+word-spacing,
+text-transform,
+text-decoration. */
+
+.one{
+    line-height: 0.5rem;
+}
+
+.two{
+    letter-spacing: 2px;
+}
+
+.three{
+    word-spacing: 25px;
+}
+
+h1{
+    text-transform:capitalize;
+}
+
+a{
+    text-decoration:dotted;
+}

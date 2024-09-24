@@ -1,0 +1,15 @@
+.one{
+    background-color: lightsalmon;
+    width: 500px;
+    font-size: 25px;
+    color: blue;
+    border: blue solid 5px;
+}
+
+.two{
+    background-color:aqua;
+    width: 500px;
+    font-size: 25px;
+    color:blue;
+    border: solid 10px red;
+}

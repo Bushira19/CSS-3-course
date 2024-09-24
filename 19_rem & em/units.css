@@ -1,0 +1,54 @@
+div{
+    font-size: 10px;
+    
+}
+
+.relative{
+    font-size: 5em;
+    color: blue;
+}
+
+.absolute{
+    font-size: 50px;
+    color: brown;
+    
+
+}
+
+html{
+    font-size: 32px;
+}
+.relative{
+    font-size: 3rem;
+}
+
+.absolute{
+    font-size: 96px;
+}
+
+
+
+
+/* em - RELATIVE depends on parent
+1em = 16px default browser style;
+1em = base value */
+/* div {
+    font-size: 10px;
+  } */
+    /* font-size: 2em; */
+    /* 2 * 16 = 32px */
+    /* 2 * 20 = 40px */
+    /* 2 * 10 =  20px */
+
+    /* rem - RELATIVE depends on root
+1rem = 16px :default browser style; */
+/* html {
+    font-size: 10px;
+  }
+    font-size: 1.75rem; */ 
+    /* 2 * 16 = 32px */
+    /* 2 * 32 = 64px */
+    /* 1.75 * 16 = ? */
+    /* 1.75 * 10 = 17.5px */
+  
+ 
